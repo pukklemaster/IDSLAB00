@@ -47,19 +47,19 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+The bar chart shows each of the group members usernames on the x axis and their favourite number on the y axis, shown through a bar chart.
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "User names", 
+          y = "Favourite Number",
+          title = "Group members favourite numbers")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+The axis labels have been changed on the x and y axis and also on the title of the graph
 
 ### Exercise 20
 
@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+the bar plot is plotting the hobbys on the x axis and how many people have chose that hobby on the y axis
