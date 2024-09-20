@@ -54,7 +54,7 @@ The bar chart shows each of the group members usernames on the x axis and their 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "User names", 
+p1 + labs(x = "User Names", 
           y = "Favourite Number",
           title = "Group members favourite numbers")
 ```
